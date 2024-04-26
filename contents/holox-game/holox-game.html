@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="holox-game.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HoloX Game, ft. Sakamata Chloe</title>
+
+    <!-- Scripts -->
+    <script src="holox-game.js"></script>
+
+    <script src="game-states/pause.js"></script>
+    <script src="game-states/title.js"></script>
+
+    <script src="tools/controller.js"></script>
+    <script src="tools/engine.js"></script>
+    <script src="tools/loader.js"></script>
+    <script src="tools/state-manager.js"></script>
+    <script src="tools/text.js"></script>
+
+    <script src="utilities/buffer.js"></script>
+    <script src="utilities/collider.js"></script>
+    <script src="utilities/frame.js"></script>
+    <script src="utilities/player.js"></script>
+    <script src="utilities/rectangle-2d.js"></script>
 </head>
 <body>
-    <script>
-        document.getElementById("menu").addEventListener("click", function() {
-            let menu_list = document.getElementById("menu-list");
-            menu_list.style.display = "block";
-        })
-    </script>
+    <script src="initialize.js"></script>
 </body>
 </html>

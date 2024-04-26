@@ -1,0 +1,12 @@
+* { padding:0; margin:0; user-select: none; }
+
+html, body { width: 100%; height: 100%; overflow: hidden; }
+
+body {
+    align-items:center;
+    justify-items: center;
+    display: grid;
+    background-color: #202830;
+}
+
+canvas { image-rendering: crisp-edges; image-rendering: pixelated; }

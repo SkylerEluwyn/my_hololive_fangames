@@ -4,18 +4,13 @@
     padding: 0;
 }
 
-body {
+html, body {
     background-color: #070f1f;
     color:            #ffffff;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#menu {
-    cursor: pointer;
-}
-
 #menu-list li {
-    display:    none;
     list-style: none;
 }
 
